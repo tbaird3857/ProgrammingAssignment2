@@ -25,7 +25,7 @@ cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   inverse <- x$geti()
   if(!is.null(inverse)) {
-    message("Getting chached data")
+    message("Getting cached data")
     return(inverse)
   }
   data <- x$get()
